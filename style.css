@@ -159,6 +159,7 @@ section .container h2 {
 }
 
 footer p {
+    padding: 10px;
     font-size: small;
     text-align: center;
 }
