@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+p {
+    font-size: x-large;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #ecf0f1;
+}
+
+header {
+    text-align: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+header img {
+    height: 200px;
+}
+
+header nav li {
+    color: #ecf0f1;
+    display: inline;
+    margin-left: 6px;
+    font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+#novo-album .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#novo-album .container img {
+    height: 390px;
+    padding-right: 16px;
+}
+
+#novo-album .container p,
+#turne .container p {
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+section .container h2 {
+    padding-bottom: 20px;
+}
+
+#novo-single {
+    text-align: center;
+}
+
+#novo-single .container p {
+    padding-bottom: 30px;
+}
+
+#novo-single {
+    padding: 30px;
+    color: black;
+    background-image: url(imagens/72-seasons_home-slider.webp);
+}
+
+#turne {
+    padding: 30px;
+}
+
+#turne .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#turne .container h2 {
+    text-align: center;
+}
+
+#turne .container img {
+    height: 500px;
+    padding-right: 16px;
+}
+
+#party {
+    color: #ecf0f1;
+    padding: 30px;
+    background-image: url(imagens/cemiterio1.jpg);
+    background-repeat: no-repeat;
+}
+
+#party .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#party .container img {
+    height: 600px;
+    padding-left: 16px;
+}
+
+#party .container h2 {
+    text-align: center;
+}
+
+#party img {
+    height: 70px;
+}
+
+
+#party li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#party li a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+}
